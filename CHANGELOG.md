@@ -1,3 +1,10 @@
+# 1.0.0 (2022-05-26)
+
+
+### Features
+
+* move section out of the core ([14c8919](https://github.com/spaceship-prompt/spaceship-ember/commit/14c891952b7c369c0af1d38582c97de26b9614d7))
+
 ## [1.0.1](https://github.com/spaceship-prompt/spaceship-ember/compare/v1.0.0...v1.0.1) (2022-05-05)
 
 
