@@ -1,20 +1,20 @@
 <h1 align="center">
-  😍 + 🚀
-  <br>Spaceship Section<br>
+  🐹 + 🚀
+  <br>Spaceship Ember.js<br>
 </h1>
 
 <h4 align="center">
-  A <a href="https://template.com" target="_blank">Tool</a> section for Spaceship prompt
+  <a href="https://emberjs.com" target="_blank">Ember.js</a> section for Spaceship prompt
 </h4>
 
 <p align="center">
-  <a href="https://github.com/spaceship-prompt/spaceship-section/releases">
-    <img src="https://img.shields.io/github/v/release/spaceship-prompt/spaceship-section.svg?style=flat-square"
+  <a href="https://github.com/spaceship-prompt/spaceship-ember/releases">
+    <img src="https://img.shields.io/github/v/release/spaceship-prompt/spaceship-ember.svg?style=flat-square"
       alt="GitHub Release" />
   </a>
 
-  <a href="https://github.com/spaceship-prompt/spaceship-section/actions">
-    <img src="https://img.shields.io/github/workflow/status/spaceship-prompt/spaceship-section/ci?style=flat-square"
+  <a href="https://github.com/spaceship-prompt/spaceship-ember/actions">
+    <img src="https://img.shields.io/github/workflow/status/spaceship-prompt/spaceship-ember/ci?style=flat-square"
       alt="GitHub Workflow Status" />
   </a>
 
@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Tool version, through tool (`😍`).
+Current Ember.js version, through ember-cli (`🐹`).
 
 ## Installing
 
@@ -42,50 +42,50 @@ You need to source this plugin somewhere in your dotfiles. Here's how to do it w
 Execute this command to clone this repo into Oh-My-Zsh plugin's folder:
 
 ```zsh
-git clone https://github.com/spaceship-prompt/spaceship-section.git $ZSH_CUSTOM/plugins/spaceship-section
+git clone https://github.com/spaceship-prompt/spaceship-ember.git $ZSH_CUSTOM/plugins/spaceship-ember
 ```
 
-Include `spaceship-section` in Oh-My-Zsh plugins list:
+Include `spaceship-ember` in Oh-My-Zsh plugins list:
 
 ```zsh
-plugins=($plugins spaceship-section)
+plugins=($plugins spaceship-ember)
 ```
 
 ### [zplug]
 
 ```zsh
-zplug "spaceship-prompt/spaceship-section"
+zplug "spaceship-prompt/spaceship-ember"
 ```
 
 ### [antigen]
 
 ```zsh
-antigen bundle "spaceship-prompt/spaceship-section"
+antigen bundle "spaceship-prompt/spaceship-ember"
 ```
 
 ### [antibody]
 
 ```zsh
-antibody bundle "spaceship-prompt/spaceship-section"
+antibody bundle "spaceship-prompt/spaceship-ember"
 ```
 
 ### [zinit]
 
 ```zsh
-zinit light "spaceship-prompt/spaceship-section"
+zinit light "spaceship-prompt/spaceship-ember"
 ```
 
 ### [zgen]
 
 ```zsh
-zgen load "spaceship-prompt/spaceship-section"
+zgen load "spaceship-prompt/spaceship-ember"
 ```
 
 ### [sheldon]
 
 ```toml
-[plugins.spaceship-section]
-github = "spaceship-prompt/spaceship-section"
+[plugins.spaceship-ember]
+github = "spaceship-prompt/spaceship-ember"
 ```
 
 ## Usage
@@ -93,24 +93,24 @@ github = "spaceship-prompt/spaceship-section"
 After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
 
 ```zsh
-spaceship add section
+spaceship add ember
 ```
 
 ## Options
 
-This section is shown only in directories containing a `file-to-check.ext` file.
+Ember.js section is shown only in directories containing a `ember-cli-build.js` file.
 
-| Variable                   |              Default               | Meaning                              |
-| :------------------------- | :--------------------------------: | ------------------------------------ |
-| `SPACESHIP_SECTION_SHOW`   |               `true`               | Show current section                 |
-| `SPACESHIP_SECTION_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
-| `SPACESHIP_SECTION_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
-| `SPACESHIP_SECTION_SYMBOL` |               `😍·`                | Character to be shown before version |
-| `SPACESHIP_SECTION_COLOR`  |             `yellow`               | Color of section                     |
+| Variable                 |              Default               | Meaning                                       |
+| :----------------------- | :--------------------------------: | --------------------------------------------- |
+| `SPACESHIP_EMBER_SHOW`   |               `true`               | Current Ember.js section                      |
+| `SPACESHIP_EMBER_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before Ember.js section                |
+| `SPACESHIP_EMBER_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after Ember.js section                 |
+| `SPACESHIP_EMBER_SYMBOL` |               `🐹·`                | Character to be shown before Ember.js version |
+| `SPACESHIP_EMBER_COLOR`  |               `210`                | Color of Ember.js section                     |
 
 ## License
 
-MIT © [Name Surname](http://yourwebsite.com)
+MIT © [Denys Dovhan](http://denysdovhan.com) and [contributors][spaceship-contributors]
 
 <!-- References -->
 
@@ -121,3 +121,4 @@ MIT © [Name Surname](http://yourwebsite.com)
 [zinit]: https://github.com/zdharma/zinit
 [zgen]: https://github.com/tarjoilija/zgen
 [sheldon]: https://sheldon.cli.rs/
+[spaceship-contributors]: https://github.com/spaceship-prompt/spaceship-prompt/graphs/contributors

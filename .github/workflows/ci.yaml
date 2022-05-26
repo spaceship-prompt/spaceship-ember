@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/spaceship-prompt/spaceship-prompt:4.x
     steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+
       - name: ⬇️ Checkout Repo
         uses: actions/checkout@v2
 
@@ -19,14 +22,17 @@ jobs:
         run: zsh --version
 
       - name: 🧪 Run Tests
-        run: ./tests/spaceship-section.test.zsh
+        run: ./tests/spaceship-ember.test.zsh
 
   release:
     name: Release
     needs: main
-    if: ${{ github.repository == 'spaceship-prompt/spaceship-section' && github.event_name == 'push' }}
+    if: ${{ github.repository == 'spaceship-prompt/spaceship-ember' && github.event_name == 'push' }}
     runs-on: ubuntu-latest
     steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+
       - name: ⬇️ Checkout Repo
         uses: actions/checkout@v2
 
@@ -38,4 +44,4 @@ jobs:
             @semantic-release/git
             semantic-release-license
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
