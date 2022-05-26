@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/spaceship-prompt/spaceship-ember/compare/v1.0.0...v1.0.1) (2022-05-26)
+
+
+### Bug Fixes
+
+* Remove obsolete template ([637e9d8](https://github.com/spaceship-prompt/spaceship-ember/commit/637e9d859951c104ead30c29014584f8915fcfab))
+
 # 1.0.0 (2022-05-26)
 
 
