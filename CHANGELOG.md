@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/spaceship-prompt/spaceship-ember/compare/v1.0.1...v1.0.2) (2022-06-01)
+
+
+### Bug Fixes
+
+* specify section version ([8634af3](https://github.com/spaceship-prompt/spaceship-ember/commit/8634af3b28d301c420f12867559fa50633f31359))
+
 ## [1.0.1](https://github.com/spaceship-prompt/spaceship-ember/compare/v1.0.0...v1.0.1) (2022-05-26)
 
 
