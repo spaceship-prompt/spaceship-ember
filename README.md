@@ -88,6 +88,26 @@ zgen load "spaceship-prompt/spaceship-ember"
 github = "spaceship-prompt/spaceship-ember"
 ```
 
+### Manual
+
+If none of the above methods works for you, you can install Spaceship manually.
+
+1. Clone this repo somewhere, for example to `$HOME/.zsh/spaceship-ember`.
+2. Source this section in your `~/.zshrc`.
+
+### Example
+
+```zsh
+mkdir -p "$HOME/.zsh"
+git clone --depth=1 https://github.com/spaceship-prompt/spaceship-ember.git "$HOME/.zsh/spaceship-ember"
+```
+
+For initializing prompt system add this to your `.zshrc`:
+
+```zsh title=".zshrc"
+source "~/.zsh/spaceship-ember/spaceship-ember.plugin.zsh"
+```
+
 ## Usage
 
 After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
