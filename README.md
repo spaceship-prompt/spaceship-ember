@@ -128,6 +128,12 @@ Ember.js section is shown only in directories containing a `ember-cli-build.js` 
 | `SPACESHIP_EMBER_SYMBOL` |               `🐹·`                | Character to be shown before Ember.js version |
 | `SPACESHIP_EMBER_COLOR`  |               `210`                | Color of Ember.js section                     |
 
+## Contributing
+
+First, thanks for your interest in contributing!
+
+Contribute to this repo by submitting a pull request. Please use [conventional commits](https://www.conventionalcommits.org/), since this project adheres to [semver](https://semver.org/) and is automatically released via [semantic-release](https://github.com/semantic-release/semantic-release).
+
 ## License
 
 MIT © [Denys Dovhan](http://denysdovhan.com) and [contributors][spaceship-contributors]
