@@ -13,10 +13,10 @@ jobs:
     container: ghcr.io/spaceship-prompt/spaceship-prompt:latest
     steps:
       - name: 🛑 Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.9.1
+        uses: styfle/cancel-workflow-action@0.13.1
 
       - name: ⬇️ Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       - name: 🖨 Print Zsh Version
         run: zsh --version
@@ -31,13 +31,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🛑 Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.9.1
+        uses: styfle/cancel-workflow-action@0.13.1
 
       - name: ⬇️ Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       - name: 🚀 Release
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v6
         with:
           extra_plugins: |
             @semantic-release/changelog
